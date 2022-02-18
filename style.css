@@ -1,0 +1,59 @@
+.topnav {
+	color: black;
+	display: inline-block;
+	justify-content: right;
+	text-align: center;
+}
+
+.topnav a {
+	color: black;
+	justify-content: right;
+}
+
+.logo img {
+	border-radius: 100%;
+}
+
+.logo1  {
+	display: inline-block;
+}
+
+.logo1 img {
+	border-radius: 30%;
+	float: left;
+	width: 200px;
+}
+
+.aboutMe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.buttons {
+	border-radius: 30%;
+	$("button").click(function(){
+		$("div").animate({left: '250px'});
+	  });
+}
+
+.myWork {
+	display: grid;
+	width: 33%;
+}
+
+.logo3 {
+	justify-content: right;
+	border-radius: 30%;
+}
+
+.myPicture {
+	background-image: url("./Screen\ Shot\ 2022-02-10\ at\ 8.52\ 1.png");
+	height: 300px;
+	width: 300px;
+	background-position: bottom;
+	background-size: cover;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}

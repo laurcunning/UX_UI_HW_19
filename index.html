@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<title>my portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+	<div class="topnav"> 
+		<div class="main_menu">
+		<a class="active" href="home">Home</a>
+		<a href="aboutme">About Me</a>
+		<a href="portfolio">Portfolio</a>
+		<a href="resume">Resume</a>
+		<a href="contact">Contact</a>
+		</div>
+		<div class="logo">
+			<img src="./IMG_7036.jpg">
+		</div>
+
+	</div>
+
+	<div class="hero_section">
+		<div class="left_column">
+		<div class="headshot">
+	</div>
+	</div>
+
+	<div class="right_column">
+	<div class="content">
+	<h1>Hi, I'm Lauren!</h1>
+
+	<p>I'm an emerging UX/UI designer. 
+
+	   I specialize in user experience and user interface design. I enjoy solving problems that present me with a challenge and the opportunity to apply my creative, empathetic and problem solving skills. I strive to create meaningful and practical solutions that work to solve user problems.</p>
+	</div>
+
+	
+	 <div class="buttons">
+	   <button class="btn about">About</button> 
+	   <button class="btn portfolio">Portfolio</button>
+	   <button class="btn resume">Resume</button>
+	   <button class="btn contact">Contact</button>
+	 </div>
+
+	 </div>
+
+	</div>
+
+	<div class="aboutMe">
+
+		<div class="logo1">
+			<div class="myPicture">
+				<h1>About Lauren</h1>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script> 
+		$(document).ready(function(){
+		  $("#flip").click(function(){
+			$("#panel").slideDown("slow");
+		  });
+		});
+		</script>
+		<style> 
+		#panel, #flip {
+		  padding: 5px;
+		  text-align: center;
+		  background-color: #e5eecc;
+		  border: solid 1px #c3c3c3;
+		}
+		
+		#panel {
+		  padding: 50px;
+		  display: none;
+		}
+		</style>
+		</head>
+		<body>
+		 
+		<div id="flip">Learn more about Lauren</div>
+		<div id="panel">I'm an emerging user experience designer based out of Toronto, ON. I live in the city with 
+			my partner and our corgi puppy, Max. In my spare time I enjoy cooking, yoga, weight training, board games and good cup of coffee.
+
+			Prior to pursuing UX/UI design, my background has been in social work. For the past 
+			five years I've working as a case manager to homeless youth. I've always been driven to work with people - offering empathy, connection
+			and understanding towards others and their experiences. I also look to understand the cause and effect of human behaviours and want to be 
+			a contributing member in working towards a larger solution. 
+
+			I discovered UX/UI throughout the pandemic and have made the decisions to pursue it as a career. I've realsed my passion for design stems from 
+			how it aligns with my creative interests and desire for solving problems; while also allowing me to develop practical solutions and designs that 
+			provide individuals the best experience. 
+
+			What I enjoy most about UX/UI design is how it ties together human centred problems, visual and interactive design and research-based solutions. 
+			My approach to solving user problems is based on quantitative and qualitative research. I work to understand the user - uncovering their journey,
+			pain points, needs and insights. I practice design thinking methods and understand the importance of the entire design process rather than just focusing on the end result. 
+			I find enjoyment in that the design process is not linear. I love how to provokes curiousity and creative thinking buy presenting me with new challenges, setbacks 
+			and requires iterations before reaching a breakthrough. My design process motivates me to close the gap between the user and their desired experience. 
+			I have found a passion for pursuing design I didn't know I had, and am eager to continue to learn as it is an always evolving and ongoing process. </div>
+		
+		</body>
+	</div>
+
+	<div class="flex-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+
+
+	<div class="myWork"> 
+
+		<h1>YMCA Saskatoon</h1>
+
+		<p>Responsive Web Redesign</p>
+
+		<div class="button">
+			<button class="btn read_more">Read More</button>
+		</div>
+
+		<div class="logo3">
+			<img src="Screen Shot 2022-01-16 at 10.23.46 PM.png">
+		</div>
+
+		<div class="logo4">
+			<img src="Screen Shot 2022-01-16 at 10.25.16 PM.png">
+		</div>
+
+		</div>
+
+	</div> 
+
+
+	   	<footer>
+	   	<div class="footerlink phone">
+	   	<p>Phone (519)-870-2995</p>
+	   	</div>
+
+	   	<div class="footerlink email">
+	   	<p>Email laurcunning5@gmail.com</p>
+	   </div>
+
+	   <div class="footerlink follow">
+	   	<p>Follow me</p>
+	   </div>
+
+	   <div class="footerlink copyright">
+	   	<p>2022 Lauren Cunningham</p>
+	   </div>
+
+
+	    </footer> 
+	 </body>
+
+	<script src="js/index.js">
+	</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
+  });
+});
+</script>
+</head>
+<body>
+
+<p id="p1">Coding is hard :)</p>
+
+<button>Click here</button>
+
+</body> 
+
+</html> 
